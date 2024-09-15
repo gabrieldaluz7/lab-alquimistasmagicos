@@ -1,0 +1,38 @@
+# Laravel
+/vendor
+/node_modules
+/public/hot
+/public/storage
+/public/build
+/storage/*.key
+/storage/debugbar
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+/storage/logs
+/storage/app/public
+/bootstrap/cache
+.env
+.env.*
+.env.backup
+.env.production
+.phpunit.result.cache
+.phpactor.json
+.phpstorm.meta.php
+Homestead.yaml
+Homestead.json
+.phpunit.cache
+npm-debug.log
+yarn-error.log
+auth.json
+
+# IDEs e ferramentas de desenvolvimento
+/.fleet
+/.idea
+/.vscode
+/.phpunit.result.cache
+
+# Laravel IDE helper
+_ide_helper.php
+_ide_helper_models.php
