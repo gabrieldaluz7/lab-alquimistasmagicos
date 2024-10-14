@@ -2,7 +2,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+
 use App\Models\Usuarios;
+
 
 class AuthController extends Controller
 {
@@ -22,16 +24,7 @@ class AuthController extends Controller
 
         return redirect()->back()->withErrors(['msg' => 'Credenciais inválidas']);
     }
-
-    public function dashboard()
-    {
-        if (!session()->has('user')) {
-            return redirect()->route('login');
-        }
-
-        return view('dashboard');
-    }
-
+    
     public function logout()
     {
         session()->forget('user');
